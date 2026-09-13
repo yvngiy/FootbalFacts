@@ -9,6 +9,7 @@ Prosta strona o piłce nożnej z informacjami, ciekawostkami i terminarzem najbl
 - JavaScript
 - Node.js
 - TheSportsDB API
+- Formspree
 
 ## Uruchomienie lokalne
 
@@ -26,6 +27,8 @@ npm start
 
 Frontend korzysta z prostego serwera Node.js. Serwer udostępnia pliki strony oraz pośredniczy w pobieraniu terminarza z TheSportsDB przez endpoint `/api/matches`. Dzięki temu klucz API nie znajduje się bezpośrednio w kodzie uruchamianym w przeglądarce.
 
+Formularz kontaktowy korzysta z Formspree i przekazuje wiadomości na skonfigurowany adres e-mail, bez potrzeby tworzenia własnej bazy danych.
+
 ## Jak powstał projekt
 
 W wolnym czasie chciałem stworzyć coś związanego z tematyką, którą naprawdę lubię, dlatego zrobiłem prostą stronę piłkarską. Czerwone akcenty wybrałem ze względu na moje upodobania.
@@ -38,7 +41,6 @@ Plik `server.js` uruchamia prosty serwer Node.js, udostępnia pliki strony i pob
 
 ## Dalsze pomysły
 
-- dodać screeny strony,
 - rozbudować sekcję ciekawostek,
 - dodać filtrowanie lub wyszukiwanie,
-- opisać proces powstania projektu.
+- rozwinac api
