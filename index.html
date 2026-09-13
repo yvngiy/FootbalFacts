@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootbalFacts</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <a class="brand" href="#home"><strong>FOOTBALL</strong><span>FACTS</span></a>
+        <a href="#home"><h3>Home</h3></a>
+        <a href="#news"><h3>News</h3></a>
+        <a href="#contact"><h3>Contact</h3></a>
+        <label class="switch">
+            <input type="checkbox" id="darkmode">
+            <span class="slider "></span>
+        </label>
+    </header>
+    <nav id="home">
+        <div class="hero-visual">
+            <img src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=1600&q=85" alt="Puchar świata i piłka nożna">
+        </div>
+        <div class="hero-content">
+            <p class="hero-label">FOOTBALL FACTS / 2026</p>
+            <h1>PLAY<br>THE GAME</h1>
+            <p class="hero-intro">Historie, które zostają w pamięci długo po ostatnim gwizdku.</p>
+            <a class="hero-link" href="#news">Odkryj historie <span aria-hidden="true">↘</span></a>
+        </div>
+    </nav>
+    <section class="match-band" aria-labelledby="matches-title">
+        <div class="match-intro">
+            <p class="section-kicker">DZISIAJ NA BOISKU</p>
+            <h2 id="matches-title">Nadchodzące mecze</h2>
+            <p>Najciekawsze spotkania, wyniki i historie, które warto mieć na oku.</p>
+        </div>
+        <div class="match-list" id="match-list">
+            <p class="match-loading">Ładowanie terminarza...</p>
+        </div>
+    </section>
+    <main>
+        <article id="news">
+            <p class="section-kicker">FOOTBALL FACTS / HISTORIE I CIEKAWOSTKI</p>
+            <h1>Newsy ze świata piłki</h1>
+            <div class="articles">
+                <article class="news-card">
+                    <img src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?auto=format&fit=crop&w=700&q=80" alt="Mecz piłkarski nocą">
+                    <div class="news-content">
+                        <p class="news-meta">HISTORIA • 16 LIPCA 1950</p>
+                        <h2>Maracanazo: dzień, w którym stadion zamilkł</h2>
+                        <p>Urugwaj odwrócił losy finałowego meczu z Brazylią przed ponad 170 tysiącami kibiców. To jedna z najbardziej przejmujących historii w dziejach mundialu.</p>
+                        <details><summary>Czytaj więcej</summary><p>Gospodarzom wystarczał remis, a Brazylia objęła prowadzenie po przerwie. Urugwaj wygrał jednak 2:1. Porażka była dla Brazylijczyków tak bolesna, że reprezentacja zmieniła później białe stroje na żółto-zielone. Wydarzenie nazwano <em>Maracanazo</em>.</p></details>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=700&q=80" alt="Piłkarz podczas treningu">
+                    <div class="news-content">
+                        <p class="news-meta">SPRZĘT • MUNDIAL 1970</p>
+                        <h2>Piłka, która zmieniła sposób oglądania futbolu</h2>
+                        <p>Czarno-biała Telstar nie była tylko ciekawym projektem. Jej wzór stworzono po to, by lepiej wyglądała w telewizorach z tamtej epoki.</p>
+                        <details><summary>Czytaj więcej</summary><p>Projekt składał się z dwudziestu białych sześciokątów i dwunastu czarnych pięciokątów. Taki układ pozwalał uzyskać prawie kulisty kształt. Telstar stał się ikoną futbolu i wzorem dla wielu późniejszych piłek.</p></details>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=700&q=80" alt="Stadion piłkarski pełen kibiców">
+                    <div class="news-content">
+                        <p class="news-meta">TURNIEJE • CO 4 LATA</p>
+                        <h2>Dlaczego mistrzostwo świata jest tak trudne?</h2>
+                        <p>Na mundialu nie ma czasu na poprawki. O wyniku całych lat przygotowań może zdecydować jeden stały fragment albo chwila nieuwagi.</p>
+                        <details><summary>Czytaj więcej</summary><p>Reprezentacje muszą połączyć przygotowanie fizyczne, odporność psychiczną i zgranie w krótkim czasie. Do tego dochodzą podróże, presja kibiców i mecze rozgrywane co kilka dni.</p></details>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="https://images.unsplash.com/photo-1560272564-c83b66b1ad12?auto=format&fit=crop&w=700&q=80" alt="Piłkarz oddający strzał">
+                    <div class="news-content">
+                        <p class="news-meta">TRANSFERY • 1995</p>
+                        <h2>Reguła Bosmana zmieniła transfery na zawsze</h2>
+                        <p>Jedno orzeczenie sądowe dało piłkarzom z Europy znacznie większą kontrolę nad własną karierą.</p>
+                        <details><summary>Czytaj więcej</summary><p>Po wygaśnięciu kontraktu zawodnik może odejść bez kwoty odstępnego. Zmieniło to rynek transferowy i sprawiło, że kluby zaczęły znacznie uważniej pilnować umów.</p></details>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=700&q=80" alt="Piłka na zielonej murawie">
+                    <div class="news-content">
+                        <p class="news-meta">MUNDIAL • URUGWAJ 1930</p>
+                        <h2>Pierwszy mundial miał tylko trzynaście drużyn</h2>
+                        <p>Podróż do Ameryki Południowej była wtedy tak długa i kosztowna, że w turnieju wystąpiło zaledwie trzynaście reprezentacji.</p>
+                        <details><summary>Czytaj więcej</summary><p>Gospodarze wygrali finał z Argentyną 4:2. Wszystkie mecze odbywały się w kilku obiektach Montevideo, a część europejskich drużyn płynęła na turniej przez Atlantyk.</p></details>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="https://images.unsplash.com/photo-1553778263-73a83bab9b0c?auto=format&fit=crop&w=700&q=80" alt="Zawodnicy walczący o piłkę">
+                    <div class="news-content">
+                        <p class="news-meta">PRZEPISY • XIX WIEK</p>
+                        <h2>Rzut karny powstał jako kara za taktyczne faule</h2>
+                        <p>Zanim pojawiła się jedenastka, obrońca mógł zatrzymać pewnego gola faulem bez realnej szansy dla napastnika.</p>
+                        <details><summary>Czytaj więcej</summary><p>Rzut z ustalonej odległości miał przywrócić napastnikowi szansę na gola. Z czasem jedenastka stała się osobnym testem nerwów i jednym z najbardziej emocjonujących momentów meczu.</p></details>
+                    </div>
+                </article>
+            </div>
+        </article>
+    </main>
+    <section id="contact">
+        <div class="contact-heading">
+            <p class="section-kicker">MASZ HISTORIĘ?</p>
+            <h2>Napisz do redakcji</h2>
+            <p>Podziel się ciekawostką, opinią albo historią z boiska.</p>
+        </div>
+        <form action="">
+            <label for="name">Imię</label> <br>
+            <input type="text" id="name" name="name" required> <br>
+            <label for="email">E-mail</label> <br>
+            <input type="email" id="email" name="email" required> <br>
+            <label for="message">Wiadomość</label> <br>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Wyślij wiadomość</button>
+        </form>
+    </section>
+    <footer>
+        <strong>FOOTBALL<span>FACTS</span></strong>
+        <p>Historie, liczby i emocje zapisane w futbolu.</p>
+        <small>© 2026 FootballFacts</small>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
